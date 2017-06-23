@@ -66,6 +66,12 @@ int main() {
     })
   );
 
+  dispatcher.ListenFor("/root/throw", Tag()
+    .Opened([](const Path&, const Attributes&) {
+      throw runtime_error("Lookit, we found a <throw/> tag!");
+    })
+  );
+
   ifstream src("test.xml", ios::in);
 
   if (src.good()) {

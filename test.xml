@@ -1,9 +1,10 @@
 <root id="fish_and_span" color="red">
-
   This is some text.
 
   <a>A sub-element</a>
 
   And some <a>more</a> text.
+
+  <throw/>
 
 </root>
