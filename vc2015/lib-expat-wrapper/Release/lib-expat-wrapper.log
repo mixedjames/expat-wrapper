@@ -1,0 +1,4 @@
+﻿  expat-facade.cpp
+  expat-parser-dispatcher.cpp
+  expat-parser.cpp
+  lib-expat-wrapper.vcxproj -> D:\data\expat-wrapper\vc2015\..\bin\lib-expat-wrapper.x86.lib
